@@ -7,4 +7,4 @@ const reducer = (state = 0, action) => {
         default: return state;
     }
 };
-export const store = createStore();
+export const store = createStore(reducer);
